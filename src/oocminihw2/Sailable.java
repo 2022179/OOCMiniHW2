@@ -14,4 +14,5 @@ public interface Sailable {
     public void lowerSail();
     public boolean isSailHoisted();
     public void landHo();
+    
 }

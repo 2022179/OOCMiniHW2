@@ -13,7 +13,8 @@ public class OOCMiniHW2 {
     /**
      * @param args the command line arguments
      */
-   public class SomeVehicle implements Drivable, Flyable, Sailable {
+   public abstract class SomeVehicle implements Driveable, Flyable, Sailable {
+       
 
         private String make;
         private String type;
@@ -26,7 +27,8 @@ public class OOCMiniHW2 {
         @Override
         public void accelerate(float speed) {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        //Implements acceleration logic for the vehicle
+            //Implements acceleration logic for the vehicle
+            
         }
 
         @Override
@@ -65,37 +67,26 @@ public class OOCMiniHW2 {
         @Override
         public void changeAltitude(float change) {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        // Implement altitude change logic for the flying vehicle.
-        }
+            // Implement altitude change logic for the flying vehicle.
+            
+}
 
         @Override
         public float getAltitude() {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         }
 
-        @Override
-        public void hoistSail() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        }
+      
 
-        @Override
-        public void lowerSail() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        }
+       
 
-        @Override
-        public boolean isSailHoisted() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        }
-
-        @Override
-        public void landHo() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        }
-        
-    }
+       
     
 }
+
+    }
+    
+
 //
 
     

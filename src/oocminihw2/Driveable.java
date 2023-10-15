@@ -18,12 +18,12 @@ public interface Driveable {
     public String getType();
 }
 //Define the flyable interface that extended drivaable
-interface Flyable extends Drivable{
+interface Flyable extends Driveable{
     void changeAltitude(float change);
     float getAltitude();
 }
 
-interface Sailable extends Drivable {
+interface Sailable extends Driveable {
     void setSailDirection(float angle);
     float getSailDirection();
 }

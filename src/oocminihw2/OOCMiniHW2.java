@@ -42,25 +42,25 @@ public class OOCMiniHW2 {
 
         @Override
         public float getDirection() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+            return 0;
         //Implements turning logic for the vehicle
         }
 
         @Override
         public float getSpeed() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+           return 0; 
         //Implements speed changes logic for the vehicle
         }
 
         @Override
         public String getMake() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return make;   
         }
 
         @Override
         public String getType() {
-            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        }
+            return type;
+            }
 
         @Override
         public void changeAltitude(float change) {
